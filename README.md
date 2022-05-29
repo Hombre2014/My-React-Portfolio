@@ -6,6 +6,14 @@
 - Major languages: Sass, JavaScript, React
 - Backend: Sanity
 - Tools used: Framer motion, React Icons
+## Screenshots
+
+![Header](src/assets/Demo_1.jpg)
+![About](src/assets/Demo_2.jpg)
+![Work](src/assets/Demo_3.jpg)
+![Skills](src/assets/Demo_4.jpg)
+![Testimonials](src/assets/Demo_5.jpg)
+![Contact](src/assets/Demo_6.jpg)
 
 ## Live Link
 
