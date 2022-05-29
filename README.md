@@ -22,7 +22,7 @@ You can view the current deployment by clicking the link bellow:
 [Live Link](https://yuriy-portfolio.netlify.app/)
 ### Deployment
 
-- Using [Vercel](https://vercel.com)
+- Using [Netlify](https://netlify.com)
 ## Author
 
 👤 **Yuriy Chamkoriyski**
