@@ -19,7 +19,7 @@
 
 You can view the current deployment by clicking the link bellow:
 
-[Live Link](https://hombre2014.github.io/react_portfolio/)
+[Live Link](https://yuriy-portfolio.netlify.app/)
 ### Deployment
 
 - Using [Vercel](https://vercel.com)
