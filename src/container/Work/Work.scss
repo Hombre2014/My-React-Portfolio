@@ -7,7 +7,7 @@
 .app__work-filter {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 
@@ -46,12 +46,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  column-gap: 2rem;
 
   .app__work-item {
-    width: 270px;
+    width: 300px;
     flex-direction: column;
 
-    margin: 2rem;
+    margin: 2rem 0;
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: #fff;
@@ -116,7 +117,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
 
-    margin: 1rem;
+    margin: 2rem;
     font-family: var(--font-base);
     font-weight: 800;
     cursor: pointer;
