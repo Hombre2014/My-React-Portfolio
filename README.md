@@ -1,58 +1,20 @@
-# Yuriy Chamkoriyski's Portfolio
+# Yuriy Chamkoriyski's React Portfolio
 
 > Showcase projects portfolio.
-
-## Project list
-
-This is portfolio website, where you can see the most important projects I have been working on.
-
-- [x] Project 1: 
-- [x] Project 2: 
-- [x] Project 3: 
-- [x] Project 4: 
-- [x] Project 5: 
-- [x] Project 6: 
-- [x] Project 7: 
-- [x] Project 8: 
-- [x] Project 9: 
-- [x] Project 10: 
-
 ## Built With
 
-- Major languages: HTML, CSS, JavaScript, React
+- Major languages: Sass, JavaScript, React
 - Backend: Sanity
-- Technologies used: Sass, Framer motion, React Icons
+- Tools used: Framer motion, React Icons
 
-## Live Demo
+## Live Link
 
 You can view the current deployment by clicking the link bellow:
 
-[Live Demo Link](https://hombre2014.github.io/react_portfolio/)
-
-## Getting Started
-
-
-
-### Prerequisites
-
-- Internet connection and a web browser
-
-### Setup
-
-
-
-### Install
-
-
-
-### Usage
-
-
-
+[Live Link](https://hombre2014.github.io/react_portfolio/)
 ### Deployment
 
-- Using GitHub Pages
-
+- Using [Vercel](https://vercel.com)
 ## Author
 
 👤 **Yuriy Chamkoriyski**
@@ -73,7 +35,13 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks to JavaScript Mastery for inspirational video
+Credits and attribution for the photos in About section:</br>
+</br>
+[Web illustrations by Storyset](https://storyset.com/web)</br>
+[Technology illustrations by Storyset](https://storyset.com/technology)</br>
+[Designed by upklyak/Freepik](http://www.freepik.com)</br>
+
+Thanks to JavaScript Mastery for inspirational [video](https://www.youtube.com/watch?v=3HNyXCPDQ7Q).
 ## 📝 License
 
-This project is [MIT](./licence.md) licensed.
+This project is [MIT](./license.md) licensed.
