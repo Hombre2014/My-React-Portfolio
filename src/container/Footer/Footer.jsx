@@ -32,6 +32,7 @@ const Footer = () => {
         setLoading(false);
         setIsFormSubmitted(true);
       })
+      /* eslint no-console: ["error", { allow: ["warn", "error"] }] */
       .catch((err) => console.log(err));
   };
 
