@@ -9209,7 +9209,11 @@
   "version" "1.1.4"
 
 "repeat-string@^1.5.2", "repeat-string@^1.6.1":
+<<<<<<< HEAD
   "integrity" "sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w=="
+=======
+  "integrity" "sha1-jcrkcOHIirwtYA//Sndihtp15jc="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/repeat-string/-/repeat-string-1.6.1.tgz"
   "version" "1.6.1"
 
@@ -9261,12 +9265,20 @@
   "version" "2.1.1"
 
 "require-main-filename@^1.0.1":
+<<<<<<< HEAD
   "integrity" "sha512-IqSUtOVP4ksd1C/ej5zeEh/BIP2ajqpn8c5x+q99gvcIG/Qf0cud5raVnE/Dwd0ua9TXYDoDc0RE5hBSdz22Ug=="
+=======
+  "integrity" "sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/require-main-filename/-/require-main-filename-1.0.1.tgz"
   "version" "1.0.1"
 
 "require-uncached@^1.0.3":
+<<<<<<< HEAD
   "integrity" "sha512-Xct+41K3twrbBHdxAgMoOS+cNcoqIjfM2/VxBF4LL2hVph7YsF8VSKyQ3BDFZwEVbok9yeDl2le/qo0S77WG2w=="
+=======
+  "integrity" "sha1-Tg1W1slmL9MeQwEcS5WqSZVUIdM="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/require-uncached/-/require-uncached-1.0.3.tgz"
   "version" "1.0.3"
   dependencies:
@@ -9279,12 +9291,20 @@
   "version" "1.0.0"
 
 "resolve-from@^1.0.0":
+<<<<<<< HEAD
   "integrity" "sha512-kT10v4dhrlLNcnO084hEjvXCI1wUG9qZLoz2RogxqDQQYy7IxjI/iMUkOtQTNEh6rzHxvdQWHsJyel1pKOVCxg=="
+=======
+  "integrity" "sha1-Jsv+k10a7uq7Kbw/5a6wHpPUQiY="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-1.0.1.tgz"
   "version" "1.0.1"
 
 "resolve-from@^3.0.0":
+<<<<<<< HEAD
   "integrity" "sha512-GnlH6vxLymXJNMBo7XP1fJIzBFbdYt49CuTwmB/6N53t+kMPRMFKz783LlQ4tv28XoQfMWinAJX6WCGf2IlaIw=="
+=======
+  "integrity" "sha1-six699nWiBvItuZTM17rywoYh0g="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-3.0.0.tgz"
   "version" "3.0.0"
 
@@ -9299,7 +9319,11 @@
   "version" "3.0.0"
 
 "resolve-url@^0.2.1":
+<<<<<<< HEAD
   "integrity" "sha512-ZuF55hVUQaaczgOIwqWzkEcEidmlD/xl44x1UZnhOXcYuFN2S6+rcxpG+C1N3So0wvNI3DmJICUFfu2SxhBmvg=="
+=======
+  "integrity" "sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo="
+>>>>>>> 30cb81070c4281cba2532980c0ad0243c02227d3
   "resolved" "https://registry.npmjs.org/resolve-url/-/resolve-url-0.2.1.tgz"
   "version" "0.2.1"
 
