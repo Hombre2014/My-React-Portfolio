@@ -66,6 +66,20 @@
   box-shadow: 0 0 25px #dae1e7;
 }
 
+.credits {
+  margin-top: 2rem !important;
+
+  a {
+  text-decoration: none;
+  color: var(--grey-color);
+  cursor: pointer;
+
+    &:hover {
+      color: var(--secondary-color);
+    }
+  }
+}
+
 .app__footer-form {
   width: 60%;
   flex-direction: column;
@@ -126,5 +140,9 @@
   @media screen and (max-width: 768px) {
     width: 100%;
     margin: 1rem 0;
+  }
+
+  .credits {
+    margin-top: 2rem !important;
   }
 }
