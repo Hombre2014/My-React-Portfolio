@@ -75,6 +75,7 @@ const Footer = () => {
           </h3>
         </div>
       )}
+      <h6 className="credits">Credits for web illustrations to <a href="https://storyset.com/web" target="_blank" rel="noreferrer noopener">Storyset</a> and <a href="https://www.freepik.com" target="_blank" rel="noreferrer noopener">upklyak/Freepik</a></h6>
     </>
   );
 };

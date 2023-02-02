@@ -47,7 +47,7 @@ Credits and attribution for the photos in About section:</br>
 </br>
 [Web illustrations by Storyset](https://storyset.com/web)</br>
 [Technology illustrations by Storyset](https://storyset.com/technology)</br>
-[Designed by upklyak/Freepik](http://www.freepik.com)</br>
+[Designed by upklyak/Freepik](https://www.freepik.com)</br>
 
 Thanks to JavaScript Mastery for inspirational [video](https://www.youtube.com/watch?v=3HNyXCPDQ7Q).
 ## 📝 License
