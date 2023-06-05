@@ -18,13 +18,13 @@
 }
 
 .app__skills-list {
-  flex: 1;
+  flex: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: flex-start;
 
-  margin-right: 5rem;
+  margin-right: 4rem;
 
   @media screen and (max-width: 900px) {
     margin-right: 0;
