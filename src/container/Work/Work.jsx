@@ -38,20 +38,30 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
-
+      <h2 className="head-text">
+        My Creative <span>Portfolio</span> Section
+      </h2>
       <div className="app__work-filter">
-        {['HTML5/CSS3', 'JavaScript', 'React/Redux/SPA', 'Ruby/Rails/PostgreSQL', 'WordPress/CMS', 'All'].map((item, index) => (
+        {[
+          'HTML5/CSS3',
+          'JavaScript',
+          'React/Redux/SPA',
+          'Next.js',
+          'Ruby/Rails/PostgreSQL',
+          'WordPress/CMS',
+          'All',
+        ].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
-            className={`app__work-filter-item app__flex p-text ${activeFilter === item ? 'item-active' : ''}`}
+            className={`app__work-filter-item app__flex p-text ${
+              activeFilter === item ? 'item-active' : ''
+            }`}
           >
             {item}
           </div>
         ))}
       </div>
-
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
@@ -59,21 +69,21 @@ const Work = () => {
       >
         {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
-            <div
-              className="app__work-img app__flex"
-            >
+            <div className="app__work-img app__flex">
               <img src={urlFor(work.imgUrl)} alt={work.name} />
-
               <motion.div
                 whileHover={{ opacity: [0, 1] }}
-                transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
+                transition={{
+                  duration: 0.25,
+                  ease: 'easeInOut',
+                  staggerChildren: 0.5,
+                }}
                 className="app__work-hover app__flex"
               >
                 <a href={work.projectLink} target="_blank" rel="noreferrer">
-
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.90] }}
+                    whileHover={{ scale: [1, 0.9] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
@@ -83,7 +93,7 @@ const Work = () => {
                 <a href={work.codeLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
-                    whileHover={{ scale: [1, 0.90] }}
+                    whileHover={{ scale: [1, 0.9] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
@@ -92,11 +102,11 @@ const Work = () => {
                 </a>
               </motion.div>
             </div>
-
             <div className="app__work-content app__flex">
               <h4 className="bold-text">{work.title}</h4>
-              <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
-
+              <p className="p-text" style={{ marginTop: 10 }}>
+                {work.description}
+              </p>
               <div className="app__work-tag app__flex">
                 <p className="p-text">{work.tags[0]}</p>
               </div>
@@ -111,5 +121,6 @@ const Work = () => {
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
   'work',
-  'app__primarybg',
+  // eslint-disable-next-line comma-dangle
+  'app__primarybg'
 );
