@@ -49,6 +49,7 @@ const Work = () => {
           'Next.js',
           'Ruby/Rails/PostgreSQL',
           'WordPress/CMS',
+          'MERN Stack',
           'All',
         ].map((item, index) => (
           <div
