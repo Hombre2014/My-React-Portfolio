@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
+import { v4 as uuidv4 } from 'uuid';
+import resume from '../../assets/Resume_QR.png';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
@@ -45,13 +47,10 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <div className="app__skills-exp">
+        <div className="app__skills-exp" key={uuidv4()}>
           {experiences.map((experience) => (
-            <motion.div
-              className="app__skills-exp-item"
-              key={experience.year}
-            >
-              <div className="app__skills-exp-year">
+            <motion.div className="app__skills-exp-item">
+              <div className="app__skills-exp-year" key={experience.year}>
                 <p className="bold-text">{experience.year}</p>
               </div>
               <motion.div className="app__skills-exp-works">
@@ -81,6 +80,12 @@ const Skills = () => {
               </motion.div>
             </motion.div>
           ))}
+          <div className="app__skills-resume">
+            <h3>Resume</h3>
+            <a href="https://docs.google.com/document/d/1GsBSlEFPrIG6g8GCUm6MqwJ3fToQtejBuseIDgTNXmg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <img src={resume} alt="Resume" width={300} />
+            </a>
+          </div>
         </div>
       </div>
     </>
