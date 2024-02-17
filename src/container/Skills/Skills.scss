@@ -123,6 +123,19 @@
   }
 }
 
+.app__skills-resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
 .app__skills-exp-year {
   margin-right: 3rem;
 
