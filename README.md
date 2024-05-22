@@ -1,11 +1,14 @@
 # Yuriy Chamkoriyski's React Portfolio
 
 > Showcase projects portfolio.
+
 ## Built With
 
-- Major languages: Sass, JavaScript, React
+- Major languages: JavaScript
+- Library: React
 - Backend: Sanity
-- Tools used: Framer motion, React Icons
+- Tools used: Framer motion, React Icons, SaaS
+
 ## Screenshots
 
 ![Header](src/assets/Demo_1.jpg)
@@ -20,9 +23,11 @@
 You can view the current deployment by clicking the link bellow:
 
 [Live Link](https://yuriy-portfolio.netlify.app/)
-### Deployment
+
+## Deployment
 
 - Using [Netlify](https://netlify.com)
+
 ## Author
 
 👤 **Yuriy Chamkoriyski**
@@ -50,6 +55,7 @@ Credits and attribution for the photos in About section:</br>
 [Designed by upklyak/Freepik](https://www.freepik.com)</br>
 
 Thanks to JavaScript Mastery for inspirational [video](https://www.youtube.com/watch?v=3HNyXCPDQ7Q).
+
 ## 📝 License
 
 This project is [MIT](./license.md) licensed.
