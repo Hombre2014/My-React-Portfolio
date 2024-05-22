@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
-import { v4 as uuidv4 } from 'uuid';
-import resume from '../../assets/Resume_QR.png';
+import React, { useState, useEffect } from 'react';
 
-import { AppWrap, MotionWrap } from '../../wrapper';
-import { urlFor, client } from '../../client';
 import './Skills.scss';
+import { urlFor, client } from '../../client';
+import resume from '../../assets/Resume_QR.png';
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 const Skills = () => {
   const [experiences, setExperiences] = useState([]);
