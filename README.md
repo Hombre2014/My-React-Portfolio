@@ -40,7 +40,7 @@ You can view the current deployment by clicking the link bellow:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Hombre/react_portfolio/issues).
+Feel free to check the [issues page](https://github.com/Hombre2014/My-React-Portfolio/issues).
 
 ## Show your support
 
