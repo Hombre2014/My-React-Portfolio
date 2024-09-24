@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 import './Skills.scss';
 import { urlFor, client } from '../../client';
-import resume from '../../assets/Resume_QR.png';
+import resume from '../../assets/Resume.png';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 const Skills = () => {
