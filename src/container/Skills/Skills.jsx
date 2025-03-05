@@ -82,7 +82,7 @@ const Skills = () => {
           ))}
           <div className="app__skills-resume">
             <h3>Resume</h3>
-            <a href="https://docs.google.com/document/d/1GsBSlEFPrIG6g8GCUm6MqwJ3fToQtejBuseIDgTNXmg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://docs.google.com/document/d/1pxvs5om9OSi9uFB0SxDk3avMY2lSmev2Mdr0oe2Yp6k/edit?tab=t.0" target="_blank" rel="noopener noreferrer">
               <img src={resume} alt="Resume" width={300} />
             </a>
           </div>
