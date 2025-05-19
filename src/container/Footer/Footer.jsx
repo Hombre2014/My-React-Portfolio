@@ -76,6 +76,11 @@ const Footer = () => {
         </div>
       )}
       <h6 className="credits">Credits for web illustrations to <a href="https://storyset.com/web" target="_blank" rel="noreferrer noopener">Storyset</a> and <a href="https://www.freepik.com" target="_blank" rel="noreferrer noopener">upklyak/Freepik</a></h6>
+
+      <div className="copyright">
+        <p className="p-text">@2022-{new Date().getFullYear()} AXE_BIT</p>
+        <p className="p-text">All rights reserved</p>
+      </div>
     </>
   );
 };
