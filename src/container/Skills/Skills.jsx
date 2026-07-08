@@ -4,8 +4,8 @@ import ReactTooltip from 'react-tooltip';
 import React, { useState, useEffect } from 'react';
 
 import './Skills.scss';
-import { urlFor, client } from '../../client';
 import resume from '../../assets/Resume.png';
+import { urlFor, client } from '../../client';
 import { AppWrap, MotionWrap } from '../../wrapper';
 
 const Skills = () => {
@@ -32,10 +32,10 @@ const Skills = () => {
         <motion.div className="app__skills-list">
           {skills.map((skill) => (
             <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
               key={skill.name}
+              transition={{ duration: 0.5 }}
+              whileInView={{ opacity: [0, 1] }}
+              className="app__skills-item app__flex"
             >
               <div
                 className="app__flex"
@@ -57,11 +57,11 @@ const Skills = () => {
                 {experience.works.map((work) => (
                   <React.Fragment key={work.name}>
                     <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
                       data-tip
                       data-for={work.name}
+                      transition={{ duration: 0.5 }}
+                      className="app__skills-exp-work"
+                      whileInView={{ opacity: [0, 1] }}
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
